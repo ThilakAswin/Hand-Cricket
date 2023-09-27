@@ -29,7 +29,7 @@ function batting(){
         document.querySelector("#user-score").innerHTML = userScore
         generateCpuScore()
     } else {
-        target = userScore;
+        target = userScore + 1;
         document.querySelector('#target').innerHTML = target;
         userChoice = btn.value;
         userScoreDisplay.innerHTML =  userChoice;
