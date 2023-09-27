@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Hand Cricket</title>
+    
+</head>
+<body>
+    <h1>Hand Cricket</h1>
+
+    <div class="display-box">
+       
+        <h2 >Your Score: <p id = "user-score" style="display: inline;">0</p></h2>
+        <div class="ground">
+              <h3 id="user-score-display">0</h3>
+                <hr>
+                <h3 id="cpu-score-display">0</h3>
+        </div>        
+        <h2>Oppononet Score: <p id="cpu-score" style="display: inline;">0</p></h2>
+    </div>
+
+    <div class="controller">
+        <button class="c-button" value="1">1</button>
+        <button class="c-button" value="2">2</button>
+        <button class="c-button" value="3">3</button>
+        <button class="c-button" value="4">4</button>
+        <button class="c-button" value="5">5</button>
+        <button class="c-button" value="6">6</button>
+        <button class="c-button" value="7">7</button>
+        <button class="c-button" value="8">8</button>
+        <button class="c-button" value="9">9</button>
+        <button class="c-button" value="10">10</button>
+    </div>
+
+    <h2 id="result" style="text-align: center;"></h2>
+    <div>
+        <h3>Target:</h3><h3 id="target"></h3>
+    </div>
+<button class="play-btn"  id="bowl-button" onclick="batting()">PLAY</button>
+
+<button class="play-btn" id="play-again-button" onClick="window.location.reload();">Play Again</button>
+
+    <script src="./app.js"></script>
+</body>
+</html>
