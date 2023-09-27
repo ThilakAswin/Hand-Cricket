@@ -20,7 +20,7 @@
 
 .ground > h3{
     align-self: center;
-    font-size: xx-large;
+    font-size: large;
     
 }
 
@@ -43,8 +43,8 @@
 button{
     border: 1px outset blue;
     background-color: lightBlue;
-    height:70px;
-    width:70px;
+    height:50px;
+    width:50px;
     cursor:pointer;
  }
  
@@ -54,7 +54,7 @@ button{
  }
 
  h1{
-    font-size: xx-large;
+    font-size: x-large;
     text-align: center;
     color: blue;
  }
