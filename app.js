@@ -17,11 +17,10 @@ let isOut = false
 
 function batting(){
 
-
     buttons.forEach(btn => btn.addEventListener('click',()=>
 {
 
-
+    
     if (!isOut) {
         userChoice = btn.value
         userScoreDisplay.innerHTML =  userChoice
@@ -40,16 +39,20 @@ function batting(){
             {
                 if(cpuScore < target){
                         result.innerHTML = "You Won"
-                        document.getElementById('play-again-button').style.display = 'block'
-                        buttons.removeEventListener()
-                        return
+                        document.getElementById('play-again-button').style.display = 'inline'
+                        alert("You Won")
+                        window.location.reload()
+                        
                 }
 
             }    
         else if(cpuScore > target)
         {
             result.innerHTML  = "Cpu Won"
-            document.getElementById('play-again-button').style.display = 'block'
+            document.getElementById('play-again-button').style.display = 'inline'
+            alert("Cpu Won")
+            window.location.reload()
+            
             
         }
 
