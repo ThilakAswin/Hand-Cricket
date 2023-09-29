@@ -1,3 +1,7 @@
+body{
+    background-color: #f8ded0;
+}
+
 .display-box{
     width: 100%;
     height:  fit-content;
@@ -9,18 +13,20 @@
 }
 
 .ground{
+
+    
     display: flex;
     flex-direction: row;
     width: 300px;
     height: fit-content;
-    background-color: aliceblue;
+    background-color: #fcd5a8;
     justify-content: space-around;
     
 }
 
 .ground > h3{
     align-self: center;
-    font-size: large;
+    font-size: xx-large;
     
 }
 
@@ -41,10 +47,10 @@
 }
 
 button{
-    border: 1px outset blue;
-    background-color: lightBlue;
-    height:50px;
-    width:50px;
+    border: 1px outset #745446;
+    background-color: #fca42f;
+    height:70px;
+    width:70px;
     cursor:pointer;
  }
  
@@ -54,26 +60,32 @@ button{
  }
 
  h1{
-    font-size: x-large;
+    font-size: xx-large;
     text-align: center;
     color: blue;
  }
-
+h2{
+    font-size: large;
+}
  .play-btn{
 
     margin: 0;
     padding: 0;
     text-align: center;
-    background-color: red;
+    background-color: #745446;
     width: 100px;
     height: 100px;
     border: solid;
     border-radius: 25%;
-    margin-left: 45%;
+    margin-left: 40%;
     color: white;
   
  }
 
  #play-again-button{
     display: none;
+ }
+
+ #target{
+    color: blue;
  }
